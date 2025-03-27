@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "50553732437",
+    "project_id": "projeto-kotlin-mobile-imepac",
+    "storage_bucket": "projeto-kotlin-mobile-imepac.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:50553732437:android:1a416c029b0247cc19c3dc",
+        "android_client_info": {
+          "package_name": "com.example.projetoandroidaula"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDamc3VwZFUr1Eu-HtEqpwrUSBrjCFay_k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

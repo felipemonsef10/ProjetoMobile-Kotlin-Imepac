@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ProjetoAndroidAula</string>
+    <string name="entrar">Entrar</string>
+    <string name="text_cadastro">Crie uma conta clicando aqui</string>
+    <string name="title_cadastro">Cadastre-se</string>
+    <string name="title_cadastrar">Cadastrar</string>
+    <string name="senha">senha</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="nome">nome</string>
+    <string name="email">email</string>
+    <string name="cadastre_se">Cadastre-se</string>
+    <string name="logo">Logo Tela Login</string>
+</resources>
