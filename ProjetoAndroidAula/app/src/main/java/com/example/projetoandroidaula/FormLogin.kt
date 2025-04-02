@@ -26,12 +26,12 @@ class FormLogin : AppCompatActivity() {
         supportActionBar?.hide();
         IniciarComponentes();
 
-            val linkFormCadastro = findViewById<TextView>(R.id.text_tela_cadastro)
+        val linkFormCadastro = findViewById<TextView>(R.id.text_tela_cadastro)
 
-            linkFormCadastro.setOnClickListener {
-                val intent = Intent(this, FormCadastro::class.java)
-                startActivity(intent)
-            }
+        linkFormCadastro.setOnClickListener {
+            val intent = Intent(this, FormCadastro::class.java)
+            startActivity(intent)
+        }
 
 
         btn_entrada.setOnClickListener { it
@@ -67,14 +67,14 @@ class FormLogin : AppCompatActivity() {
                         "Erro ao autenticar usuário: $mensagemErro",
                         Snackbar.LENGTH_LONG
                     ).show()
-            }
+                }
         }
     }
 
 
     fun IniciarComponentes(){
-        edit_email = findViewById(R.id.edit_email_cadastro)
-        edit_senha = findViewById(R.id.edit_senha_cadastro)
+        edit_email = findViewById(R.id.edit_email_login)
+        edit_senha = findViewById(R.id.edit_senha_login)
         btn_entrada = findViewById(R.id.btn_entrada)
         progressBar = findViewById(R.id.progressbar)
     }
