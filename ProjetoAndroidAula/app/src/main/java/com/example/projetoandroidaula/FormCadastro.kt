@@ -27,9 +27,9 @@ class FormCadastro : AppCompatActivity() {
         supportActionBar?.hide();
 
         //O que tiver no elemento será enviado para a variável
-        edit_nome = findViewById(R.id.edit_nome)
-        edit_email = findViewById(R.id.edit_email)
-        edit_senha = findViewById(R.id.edit_senha)
+        edit_nome = findViewById(R.id.edit_nome_cadastro)
+        edit_email = findViewById(R.id.edit_email_cadastro)
+        edit_senha = findViewById(R.id.edit_senha_cadastro)
         btnCadastrar = findViewById(R.id.btn_cadastro)
 
         btnCadastrar.setOnClickListener { it

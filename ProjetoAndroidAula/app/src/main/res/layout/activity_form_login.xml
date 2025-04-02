@@ -42,7 +42,7 @@
 
 
   <EditText
-      android:id="@+id/edit_senha"
+      android:id="@+id/edit_senha_login"
       style="@style/Edit_Text"
       android:autofillHints=""
       android:hint="@string/senha"
@@ -62,7 +62,7 @@
       style="@style/button"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintTop_toBottomOf="@+id/edit_senha"
+      app:layout_constraintTop_toBottomOf="@+id/edit_senha_login"
       />
 
   <ProgressBar

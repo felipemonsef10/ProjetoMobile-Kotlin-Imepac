@@ -34,7 +34,7 @@
 
 
     <EditText
-        android:id="@+id/edit_nome"
+        android:id="@+id/edit_nome_cadastro"
         style="@style/Edit_Text"
         android:autofillHints=""
         android:hint="@string/nome"
@@ -46,26 +46,26 @@
 
   
     <EditText
-        android:id="@+id/edit_email"
+        android:id="@+id/edit_email_cadastro"
         style="@style/Edit_Text"
         android:autofillHints=""
         android:hint="@string/email"
         android:inputType="textEmailAddress"
         android:drawableEnd="@drawable/email"
-        app:layout_constraintTop_toBottomOf="@+id/edit_nome"
+        app:layout_constraintTop_toBottomOf="@+id/edit_nome_cadastro"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
     />
 
 
     <EditText
-        android:id="@+id/edit_senha"
+        android:id="@+id/edit_senha_cadastro"
         style="@style/Edit_Text"
         android:autofillHints=""
         android:hint="@string/senha"
         android:inputType="textPassword"
         android:drawableEnd="@drawable/eye_24"
-        app:layout_constraintTop_toBottomOf="@+id/edit_email"
+        app:layout_constraintTop_toBottomOf="@+id/edit_email_cadastro"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
     />
